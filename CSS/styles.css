@@ -1,0 +1,104 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background: url(https://i.pinimg.com/originals/f8/ac/d8/f8acd8e75f4b47fa90c63cb78b07769c.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 100px;
+}
+
+h5 {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+a {
+    color: cadetblue;
+}
+
+li {
+    position: relative;
+}
+
+p {
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.sobre_mi {
+    max-width: 500px;
+    margin: auto;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.btn {
+    background-color: cadetblue;
+    color: black;
+    position: absolute;
+    right: 0;
+}
+
+.perfil ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.lineas-verticales{
+    
+    border-left: 1px solid cadetblue;
+}
+
+.moreInfo {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      max-width: 200px;
+    }
+    img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    h1 {
+        max-width: 130px;
+    }
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+  }

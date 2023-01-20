@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./assets/favicon/favicon.ico"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <title>CV Argentina Programa</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Currículum Vitae</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./perfil.html">Mi Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobre_mi.html">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://wa.link/hvtwqj" target="_blank"><i class="fa-brands fa-whatsapp"></i>
+                Contáctame!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="position-relative">
+      <h1> <span>Fernando Javier</span> Gaspari</h1>
+      <h2>Developer</h2>
+      <img src="./assets/images/A.jpg" alt="Imágen de perfil">
+    </div>
+
+    <hr>
+    <hr>
+
+    <section>
+      <h5>EXPERIENCIA LABORAL</h5>
+      <article>
+        <ul>
+          <li>
+            2021 - 2021 (Finalizado) <br> <a href="https://www.alkemy.org/" target="_blank"
+              rel="noopener noreferrer">Alkemy Labs</a> (pasantía) <button onclick="moreInfo('btn_alkemy')"
+              type="button" id="btn_alkemy" class="btn btn-dark">Más Info</button>
+            <p id="p_alkemy" class="moreInfo"></p>
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <hr>
+    <hr>
+
+    <section>
+      <h5>HISTORIAL ACADÉMICO</h5>
+      <article>
+        <ul>
+          <li>
+            2023 - Actualidad (En curso) <br> <a
+              href="https://www.buenosaires.gob.ar/educacion/estudiantes/sistema-educativo/terciario/formacion-tecnica-superior"
+              target="_blank" rel="noopener noreferrer">Insituto de Formación Técnica Superior N° 29</a> <button
+              onclick="moreInfo('btn_ifts')" type="button" id="btn_ifts" class="btn btn-dark">Más Info</button>
+            <p class="moreInfo" id="p_ifts"></p>
+          </li>
+          <hr>
+          <li>
+            2022 - Actualidad (En curso) <br> <a
+              href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"
+              rel="noopener noreferrer">Argentina Programa</a> <button onclick="moreInfo('btn_arg_programa')"
+              type="button" id="btn_arg_programa" class="btn btn-dark">Más Info</button>
+            <p id="p_arg_programa" class="moreInfo"></p>
+          </li>
+          <hr>
+          <li>
+            2022 - Actualidad (En curso) <br> <a href="https://platzi.com/" target="_blank"
+              rel="noopener noreferrer">Platzi</a> <button onclick="moreInfo('btn_platzi')" type="button"
+              id="btn_platzi" class="btn btn-dark">Más Info</button>
+            <p id="p_platzi" class="moreInfo"></p>
+          </li>
+          <hr>
+          <li>
+            2021 - 2021 (Finalizado) <br> <a href="https://www.buenosaires.gob.ar/educacion/codo-codo" target="_blank"
+              rel="noopener noreferrer">Programa Codo a Codo</a> <button onclick="moreInfo('btn_codo')" type="button"
+              id="btn_codo" class="btn btn-dark">Más Info</button>
+            <p id="p_codo" class="moreInfo"></p>
+          </li>
+          <hr>
+          <li>
+            2021 - 2021 (Finalizado) <br> <a href="https://www.sololearn.com/" target="_blank"
+              rel="noopener noreferrer">SOLOLEARN</a> <button onclick="moreInfo('btn_sololearn')" type="button"
+              id="btn_sololearn" class="btn btn-dark">Más Info</button>
+            <p id="p_sololearn" class="moreInfo"></p>
+          </li>
+          <hr>
+          <li>
+            2015 - 2017 (Interrumpido) <br> <a href="http://www.unla.edu.ar/" target="_blank"
+              rel="noopener noreferrer">Universidad Nacional de Lanus - UNLa</a> <button onclick="moreInfo('btn_unla')"
+              type="button" id="btn_unla" class="btn btn-dark">Más Info</button>
+            <p id="p_unla" class="moreInfo"></p>
+          </li>
+          <hr>
+          <li>
+            2015 (Finalizado) <br> Escuela Leandro N. Alem <button onclick="moreInfo('btn_escuela')" type="button"
+              id="btn_escuela" class="btn btn-dark">Más Info</button>
+            <p id="p_escuela" class="moreInfo"></p>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <span class="navbar-brand">Redes Sociales</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"
+                href="https://www.linkedin.com/in/fernando-gaspari-1b725b229/" target="_blank"><i
+                  class="fa-brands fa-linkedin"></i> Linkedin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/GaspariFernando" target="_blank"><i
+                  class="fa-brands fa-github"></i> GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./JS/constantes.js"></script>
+  <script src="./JS/index.js"></script>
+</body>
+
+</html>
